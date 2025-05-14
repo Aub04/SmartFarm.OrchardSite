@@ -1,5 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
+using OrchardCore.Data.Migration;
 using OrchardCore.Modules;
+using SmartFarm.Module.Migrations;
 
 namespace SmartFarm.Module
 {
@@ -7,7 +9,8 @@ namespace SmartFarm.Module
     {
         public override void ConfigureServices(IServiceCollection services)
         {
-            // Tu peux enregistrer ici tes services, interfaces, etc.
+            services.AddDataMigration<FieldMigrations>();
         }
     }
 }
+

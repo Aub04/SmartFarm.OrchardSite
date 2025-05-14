@@ -1,17 +1,23 @@
-<Project Sdk="Microsoft.NET.Sdk.Razor">
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
 
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <AddRazorSupportForMvc>true</AddRazorSupportForMvc>
-    <OrchardRazorCompile>true</OrchardRazorCompile>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<AddRazorSupportForMvc>true</AddRazorSupportForMvc>
+		<OrchardRazorCompile>true</OrchardRazorCompile>
+		<RootNamespace>SmartFarm.Theme</RootNamespace>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <FrameworkReference Include="Microsoft.AspNetCore.App" />
-  </ItemGroup>
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
 
-  <ItemGroup>
-    <PackageReference Include="OrchardCore.Theme.Targets" Version="2.1.7" />
-  </ItemGroup>
+	<ItemGroup>
+		
+		<PackageReference Include="OrchardCore.Theme.Targets" Version="2.1.7" />
+	
+		<PackageReference Include="OrchardCore.DisplayManagement" Version="2.1.7" />
+		
+		<PackageReference Include="OrchardCore.Theme.Targets" Version="2.1.7" />
+	</ItemGroup>
 
 </Project>

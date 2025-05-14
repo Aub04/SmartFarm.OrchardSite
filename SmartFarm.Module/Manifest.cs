@@ -4,6 +4,6 @@
     Name = "SmartFarm Module",
     Author = "Aubin",
     Version = "1.0.0",
-    Description = "Module personnalisé pour la gestion de la ferme intelligente.",
+    Description = "Module pour gérer les champs de la ferme.",
     Category = "SmartFarm"
 )]
