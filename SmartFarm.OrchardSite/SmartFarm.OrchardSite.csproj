@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\SimpleText.Module\SimpleText.Module\SimpleText.Module.csproj" />
     <ProjectReference Include="..\SmartFarm.Module\SmartFarm.Module.csproj" />
     <ProjectReference Include="..\SmartFarm.Theme\SmartFarm.Theme.csproj" />
   	<PackageReference Include="OrchardCore.Module.Targets" Version="2.1.7" />

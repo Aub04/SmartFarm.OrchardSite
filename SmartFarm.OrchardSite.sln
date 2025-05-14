@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartFarm.Module", "SmartFa
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Themes", "Themes", "{EA50A2D0-A6C8-4FB8-BEE7-2A023AC61A5B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartFarm.Theme", "SmartFarm.Theme\SmartFarm.Theme.csproj", "{377371FF-D307-40A5-B816-28686DB5F42E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartFarm.Theme", "SmartFarm.Theme\SmartFarm.Theme.csproj", "{377371FF-D307-40A5-B816-28686DB5F42E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleText.Module", "SimpleText.Module\SimpleText.Module\SimpleText.Module.csproj", "{92BEBC71-0261-4CEE-8D05-16369349E9C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,10 @@ Global
 		{377371FF-D307-40A5-B816-28686DB5F42E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{377371FF-D307-40A5-B816-28686DB5F42E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{377371FF-D307-40A5-B816-28686DB5F42E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92BEBC71-0261-4CEE-8D05-16369349E9C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92BEBC71-0261-4CEE-8D05-16369349E9C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92BEBC71-0261-4CEE-8D05-16369349E9C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92BEBC71-0261-4CEE-8D05-16369349E9C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,6 +44,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{43347547-9F3C-4AA4-BFD8-4C652A036174} = {F40074BD-B871-4F72-BC89-09CACADFA68B}
 		{377371FF-D307-40A5-B816-28686DB5F42E} = {EA50A2D0-A6C8-4FB8-BEE7-2A023AC61A5B}
+		{92BEBC71-0261-4CEE-8D05-16369349E9C0} = {F40074BD-B871-4F72-BC89-09CACADFA68B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3FF4AB42-7FA2-4FA8-88FC-B2C372EE689B}

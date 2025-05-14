@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<AddRazorSupportForMvc>true</AddRazorSupportForMvc>
+		<OrchardRazorCompile>true</OrchardRazorCompile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<!-- Le meta‐package Orchard Core pour module -->
+		<PackageReference Include="OrchardCore.ContentManagement" Version="2.1.7" />
+		<PackageReference Include="OrchardCore.ContentManagement.Abstractions" Version="2.1.7" />
+		<PackageReference Include="OrchardCore.ContentManagement.Display" Version="2.1.7" />
+		<PackageReference Include="OrchardCore.Contents.Core" Version="2.1.7" />
+		<PackageReference Include="OrchardCore.Data" Version="2.1.7" />
+		<PackageReference Include="OrchardCore.Module.Targets" Version="2.1.7" />
+		
+	</ItemGroup>
+
+</Project>

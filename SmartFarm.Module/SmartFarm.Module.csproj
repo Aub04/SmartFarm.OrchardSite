@@ -1,20 +1,20 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <AddRazorSupportForMvc>true</AddRazorSupportForMvc>
-    <OrchardRazorCompile>true</OrchardRazorCompile>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<OutputType>Library</OutputType>
+		<AssemblyName>SmartFarm.Module</AssemblyName>
+		<RootNamespace>SmartFarm.Module</RootNamespace>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <FrameworkReference Include="Microsoft.AspNetCore.App" />
-  </ItemGroup>
-	
-<ItemGroup>
+	<ItemGroup>
 		
-	<PackageReference Include="OrchardCore.Module.Targets" Version="2.1.7" />
-	<PackageReference Include="OrchardCore.ContentManagement.Abstractions" Version="2.1.7" />
-	<PackageReference Include="OrchardCore.ContentManagement" Version="2.1.7" />
-</ItemGroup>
-	
+		<PackageReference Include="OrchardCore.Module.Targets" Version="2.1.7" />
+		<PackageReference Include="OrchardCore.ContentFields" Version="2.1.7" />
+		<PackageReference Include="OrchardCore.Contents" Version="2.1.7" />
+		<PackageReference Include="OrchardCore.ContentManagement" Version="2.1.7" />
+		<PackageReference Include="OrchardCore.DisplayManagement" Version="2.1.7" />
+		
+	</ItemGroup>
+
 </Project>

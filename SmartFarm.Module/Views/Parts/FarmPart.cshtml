@@ -1,0 +1,8 @@
+﻿@model SmartFarm.Module.Models.FarmPart
+
+<div class="farm-part">
+    <h3>Farm Details</h3>
+    <p><strong> Number of Cows:</strong> @Model.CowCount</p>
+    <p><strong> Breed:</strong> @Model.CowBreed</p>
+    <p><strong> Arrival Date:</strong> @(Model.ArrivalDateUtc?.ToString("yyyy-MM-dd") ?? "N/A")</p>
+</div>

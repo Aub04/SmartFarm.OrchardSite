@@ -1,16 +1,19 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using OrchardCore.Data.Migration;
 using OrchardCore.Modules;
-using SmartFarm.Module.Migrations;
+using OrchardCore.Data.Migration;
+using SmartFarm.Module.Models;
+using SmartFarm.Module.Migration;
+using SmartFarm.Module.Drivers;
+using OrchardCore.ContentManagement;
+using SmartFarm.Module.Migration;
 
-namespace SmartFarm.Module
+public class Startup : StartupBase
 {
-    public class Startup : StartupBase
+    public override void ConfigureServices(IServiceCollection services)
     {
-        public override void ConfigureServices(IServiceCollection services)
-        {
-            services.AddDataMigration<FieldMigrations>();
-        }
+        services.AddContentPart<FarmPart>();
+
+
+        services.AddScoped<IDataMigration, FarmMigrations>();
     }
 }
-
