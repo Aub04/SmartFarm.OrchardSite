@@ -2,16 +2,16 @@
 
 Ce projet est une plateforme web développée avec **Orchard Core CMS** (.NET). L'objectif est de créer un site vitrine pour l'exploitation agricole de mon père, tout en intégrant un système de vente directe pour permettre aux clients de commander leurs produits sans intermédiaire.
 
-## 🌍 Contexte
+## Contexte
 Le développement de ce projet a commencé durant mon **Erasmus à Budapest**. C'est un projet personnel qui me permet de lier mes compétences techniques en .NET à un besoin concret : digitaliser l'activité familiale pour valoriser le circuit court.
 
-## 🛠 Tech Stack
+## Tech Stack
 * **Framework :** Orchard Core (ASP.NET Core 8.0)
 * **Moteur de templates :** Liquid / Razor
 * **Base de données :** SQLite (Dev) / PostgreSQL (Prod)
 * **Style :** CSS / Bootstrap (Thème personnalisé)
 
-## 🚀 Fonctionnalités
+## Fonctionnalités
 ### En place :
 * **Architecture Orchard Core :** Configuration du CMS et des recettes (recipes).
 * **Gestion de contenu :** Types de contenu personnalisés pour les produits de la ferme (fruits, légumes, etc.).
