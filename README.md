@@ -22,7 +22,7 @@ Le développement de ce projet a commencé durant mon **Erasmus à Budapest**. C
 * **Gestion des stocks :** Interface simplifiée pour la mise à jour des disponibilités par le producteur.
 * **SEO :** Optimisation pour le référencement local.
 
-## 📌 Notes
+## Notes
 Le projet est toujours en **Work In Progress**. La priorité actuelle est de finaliser l'expérience utilisateur côté boutique pour faciliter la prise de commande sur mobile.
 
 ---
